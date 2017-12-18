@@ -43,7 +43,14 @@ section {
     font-family: 'Open Sans Condensed', sans-serif; }
 @media (min-width: 768px) {
   section {
-    padding: 10px 0; } }
+    padding: 40px 0; } }
+
+.progress-bar {
+  background-color: #424C56;
+}
+span {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
 
 .btn {
   font-family: 'Open Sans Condensed', sans-serif;
