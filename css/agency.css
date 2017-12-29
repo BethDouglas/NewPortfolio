@@ -153,7 +153,7 @@ body {
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
-    background-color: #212529; }
+    background-color: transparent; }
     #mainNav .navbar-brand {
       font-size: 1.75em;
       -webkit-transition: all 0.3s;
@@ -269,7 +269,8 @@ header.masthead {
       font-family: 'Open Sans Condensed', sans-serif; }
 
 #portfolio * {
-  z-index: 2; }
+  z-index: 2;
+ }
 
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
@@ -282,7 +283,8 @@ header.masthead {
     position: relative;
     display: block;
     margin: 0 auto;
-    cursor: pointer; }
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 1px rgba(159, 159, 160, .2) }
     #pastlife .portfolio-item .portfolio-link .portfolio-hover {
       position: absolute;
       width: 100%;
